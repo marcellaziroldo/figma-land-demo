@@ -20,7 +20,12 @@ body {
 }
 
 
-ul:where([role="list"]) 
+ul:where([role="list"]) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 ol:where([role="list"]) {
     list-style: none;
     margin: 0;
