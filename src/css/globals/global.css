@@ -42,6 +42,7 @@ body {
 
   .txt-center-l {
   --mm-800: 43.75rem;
+  max-width: var(--mw-800);
   } 
 
   .txt-center-m {
